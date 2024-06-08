@@ -2,7 +2,7 @@ namespace Kolokwium.Models;
 
 public class Discount
 {
-    public int IdDiscount { get; set; }
+    public int IdDiscount { get; set; }  //do usuniecia
     public int Value { get; set; }
     public int IdSubscription { get; set; }
     public Subscription Subscription { get; set; }
